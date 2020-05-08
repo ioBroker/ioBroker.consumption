@@ -1,0 +1,170 @@
+{
+    "common": {
+        "name": "consumption",
+        "version": "0.1.7",
+        "news": {
+            "0.1.7": {
+                "en": "Set index for every sensor",
+                "de": "Stellen Sie den Index für jeden Sensor ein",
+                "ru": "Установить индекс для каждого датчика",
+                "pt": "Definir índice para cada sensor",
+                "nl": "Stel een index in voor elke sensor",
+                "fr": "Définir l'indice pour chaque capteur",
+                "it": "Imposta indice per ogni sensore",
+                "es": "Establecer índice para cada sensor",
+                "pl": "Ustaw indeks dla każdego czujnika",
+                "zh-cn": "设置每个传感器的索引"
+            },
+            "0.1.6": {
+                "en": "Make widget compatible with older devices\nAdded price for every sensor",
+                "de": "Machen Sie das Widget mit älteren Geräten kompatibel\nMehrpreis für jeden Sensor",
+                "ru": "Сделать виджет совместимым со старыми устройствами\nДобавленная цена для каждого датчика",
+                "pt": "Tornar o widget compatível com dispositivos mais antigos\nPreço adicional para cada sensor",
+                "nl": "Maak widget compatibel met oudere apparaten\nToegevoegde prijs voor elke sensor",
+                "fr": "Rendre le widget compatible avec les appareils plus anciens\nPrix supplémentaire pour chaque capteur",
+                "it": "Rendi il widget compatibile con i dispositivi più vecchi\nPrezzo aggiunto per ogni sensore",
+                "es": "Hacer widget compatible con dispositivos más antiguos\nPrecio agregado para cada sensor",
+                "pl": "Dostosuj widget do starszych urządzeń\nDodano cenę za każdy czujnik",
+                "zh-cn": "使小部件与旧设备兼容\n每个传感器加价"
+            },
+            "0.1.2": {
+                "en": "finished",
+                "de": "fertig",
+                "ru": "законченно",
+                "pt": "acabado",
+                "nl": "afgewerkt",
+                "fr": "fini",
+                "it": "finito",
+                "es": "terminado",
+                "pl": "skończone",
+                "zh-cn": "完了"
+            },
+            "0.0.2": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Consumption statistics",
+        "titleLang": {
+            "en": "Consumption statistics",
+            "de": "Verbrauchsstatistik",
+            "ru": "Статистика потребления",
+            "pt": "Estatísticas de consumo",
+            "nl": "Verbruiksstatistieken",
+            "fr": "Statistiques de consommation",
+            "it": "Statistiche sui consumi",
+            "es": "Estadísticas de consumo",
+            "pl": "Statystyka zużycia",
+            "zh-cn": "消费统计"
+        },
+        "desc": {
+            "en": "Calculates consumption for defined sensors and resources",
+            "de": "Berechnet den Verbrauch für definierte Sensoren und Ressourcen",
+            "ru": "Рассчитывает потребление для определенных датчиков и ресурсов",
+            "pt": "Calcula o consumo de sensores e recursos definidos",
+            "nl": "Berekent het verbruik voor gedefinieerde sensoren en bronnen",
+            "fr": "Calcule la consommation de capteurs et de ressources définis",
+            "it": "Calcola il consumo per sensori e risorse definiti",
+            "es": "Calcula el consumo de sensores y recursos definidos.",
+            "pl": "Oblicza zużycie dla zdefiniowanych czujników i zasobów",
+            "zh-cn": "计算定义的传感器和资源的消耗"
+        },
+        "authors": [
+            "ioBroker <dogafox@gmail.com>"
+        ],
+        "keywords": [
+            "statistics",
+            "consumption",
+            "resources",
+            "energy"
+        ],
+        "license": "LicenseRef-LICENSE",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "consumption.png",
+        "enabled": false,
+        "extIcon": "https://raw.githubusercontent.com/bluefox/ioBroker.consumption/master/admin/consumption.png",
+        "readme": "https://github.com/bluefox/ioBroker.consumption/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "logic",
+        "compact": true,
+        "materialize": true,
+        "messagebox": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "statisticsInstance": "_",
+        "historyInstance": "sql.0",
+        "license":     "",
+        "startFrom": "",
+        "resources": {
+            "energy": {
+                "unit": "kWh",
+                "price": 0.3,
+                "name": {
+                    "en": "Energy",
+                    "de": "Strom"
+                },
+                "color": "#FF1D27",
+                "icon": "⚡"
+            },
+            "water": {
+                "unit": "L",
+                "price": 1.8,
+                "name": {
+                    "en": "Water",
+                    "de": "Wasser"
+                },
+                "color": "#3C4FFF",
+                "icon": "💧"
+            },
+            "heat": {
+                "unit": "kWh",
+                "price": 0.17,
+                "name": {
+                    "en": "Heat",
+                    "de": "Wärme"
+                },
+                "color": "#b39910",
+                "icon": "🔥"
+            }
+        },
+        "stations": {
+            "Station01": {
+                "name": "Station 1",
+                "resources": {
+                    "water": {
+                        "price": 0.3,
+                        "sensors": [
+                            {
+                                "name": "Sensor1",
+                                "sensorId": "mbus.0.11bbcc.counter",
+                                "price": 0.25
+                            },
+                            {
+                                "name": "Sensor2",
+                                "sensorId": "mbus.0.11bbcd.counter",
+                                "useSource": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "objects": [],
+    "instanceObjects": []
+}
