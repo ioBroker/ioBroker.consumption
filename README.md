@@ -8,37 +8,30 @@
 
 [![NPM](https://nodei.co/npm/iobroker.consumption.png?downloads=true)](https://nodei.co/npm/iobroker.consumption/)
 
-**Tests:**: [![Travis-CI](http://img.shields.io/travis/bluefox/ioBroker.consumption/master.svg)](https://travis-ci.org/bluefox/ioBroker.consumption)
+## Consumption adapter for ioBroker
+Calculates consumption for defined sensors and resources.
 
-## consumption adapter for ioBroker
-Calculates consumption for defined sensors and resources
+You can define different resources, like water, heating, electricity and make an analysis in vis with it.
 
-## Structure of the stations
-- Stations
-  - Station01
-    - energy (kWh / €)
-        - sensor1
-        - sensorX
-        - price
-    - heat (kWh / €)
-        - sensor1
-        - sensorX
-        - price
-    - water (L / €)
-        - sensor1
-        - sensorX
-        - price    
-    - whatever (Unit / €)
-        - sensor1
-        - sensorX
-        - sensorX_price
-        - price  
+4 different analysis types are implemented:
+- Plan - Actual consumption in €/$ in this year compared with planned values and compared with previous year.
+- Donut - Comparision between sensors or resources in form of pie/donut diagram
+- Stack - Monthly consumption of every sensor and resource compared with data from previous year in form of stack bar diagram.
+- Heat map - Hourly consumption in this year for resources 
+- Table - Monthly consumption of every sensor and resource compared with previous year in form of table  
+
+## Requirements
+Adapter requires the my-SQL or postgres SQL DB and ioBroker.sql adapter to be installed (It will be automatically installed)
+It should work with SQLite too, but it is not recommended because of performance.
+ 
+MS-SQL is not yet supported, but could be easily implemented if required. 
+
+**Adapter is yet beta.**
     
-## Tasks
-1. Generate all stations with all variables with enabled statistics and sql settings
-2. Calculate actual prices for one station
-
-## Update echarts
+**Free edition supports only 4 sensors and only one station.** 
+To support more sensors or stations you need a valid license. Request it under info@iobroker.com.   
+    
+## Update echarts (for developer)
 Go to https://www.echartsjs.com/en/builder.html 
 Select:
 - Chart: bar, line, pie, heatmap, 
@@ -46,9 +39,15 @@ Select:
 - Component: title, legend, tooltip, MarkPoint, MarkArea, VisualMap, Toolbox
 - Others: SVG Renderer, Utilities, Code Compression
 
+## ToDo
+- Export data as PDF
+- More than one station.
 
 ## Changelog
-### 0.1.7 (2020-05-08)
+### 0.3.0 (2020-05-18)
+* (ioBroker) Calculate plan only in euro
+
+### 0.2.7 (2020-05-16)
 * (ioBroker) Set index for every sensor
 
 ### 0.1.6 (2020-05-03)

@@ -1,9 +1,21 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.1.7",
+        "version": "0.3.0",
         "news": {
-            "0.1.7": {
+            "0.3.0": {
+                "en": "Calculate plan only in euro",
+                "de": "Plan nur in Euro berechnen",
+                "ru": "Рассчитать план только в евро",
+                "pt": "Calcular plano apenas em euros",
+                "nl": "Bereken plan alleen in euro",
+                "fr": "Calculer le plan uniquement en euros",
+                "it": "Calcola il piano solo in euro",
+                "es": "Calcular plan solo en euros",
+                "pl": "Oblicz plan tylko w euro",
+                "zh-cn": "仅以欧元计算计划"
+            },
+            "0.2.7": {
                 "en": "Set index for every sensor",
                 "de": "Stellen Sie den Index für jeden Sensor ein",
                 "ru": "Установить индекс для каждого датчика",
@@ -101,7 +113,7 @@
         "messagebox": true,
         "dependencies": [
             {
-                "js-controller": ">=1.4.2"
+                "sql": ">=1.13.0"
             }
         ]
     },
@@ -144,6 +156,7 @@
         },
         "stations": {
             "Station01": {
+                "enabled": false,
                 "name": "Station 1",
                 "resources": {
                     "water": {
