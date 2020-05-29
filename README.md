@@ -44,6 +44,9 @@ Select:
 - More than one station.
 
 ## Changelog
+### 0.3.1 (2020-05-29)
+* (ioBroker) Fixed the units for heatmap
+
 ### 0.3.0 (2020-05-18)
 * (ioBroker) Calculate plan only in euro
 

@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.3.0",
+        "version": "0.3.1",
         "news": {
+            "0.3.1": {
+                "en": "Fixed the units for heatmap",
+                "de": "Die Einheiten für die Heatmap wurden korrigiert",
+                "ru": "Исправлены единицы измерения для карты тепла.",
+                "pt": "Corrigidas as unidades para o mapa de calor",
+                "nl": "Vaste de eenheden voor heatmap",
+                "fr": "Correction des unités pour la carte thermique",
+                "it": "Risolte le unità per la mappa di calore",
+                "es": "Se corrigieron las unidades para el mapa de calor",
+                "pl": "Naprawiono jednostki mapy cieplnej",
+                "zh-cn": "修复了热图的单位"
+            },
             "0.3.0": {
                 "en": "Calculate plan only in euro",
                 "de": "Plan nur in Euro berechnen",
