@@ -1,9 +1,21 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.3.1",
+        "version": "0.3.4",
         "news": {
-            "0.3.1": {
+            "0.3.4": {
+                "en": "Added possibility to define the station",
+                "de": "Möglichkeit zur Definition der Station hinzugefügt",
+                "ru": "Добавлена возможность задать станцию",
+                "pt": "Possibilidade adicionada para definir a estação",
+                "nl": "Mogelijkheid toegevoegd om het station te definiëren",
+                "fr": "Ajout de la possibilité de définir la station",
+                "it": "Aggiunta la possibilità di definire la stazione",
+                "es": "Posibilidad adicional de definir la estación",
+                "pl": "Dodano możliwość zdefiniowania stacji",
+                "zh-cn": "增加了定义桩号的可能性"
+            },
+            "0.3.2": {
                 "en": "Fixed the units for heatmap",
                 "de": "Die Einheiten für die Heatmap wurden korrigiert",
                 "ru": "Исправлены единицы измерения для карты тепла.",
