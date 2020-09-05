@@ -1,8 +1,32 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.3.4",
+        "version": "0.4.2",
         "news": {
+            "0.4.2": {
+                "en": "Fixed the layout in forefox",
+                "de": "Das Layout in Forefox wurde korrigiert",
+                "ru": "Исправлен макет в forefox",
+                "pt": "Corrigido o layout no forefox",
+                "nl": "De lay-out in forefox opgelost",
+                "fr": "Correction de la mise en page dans forefox",
+                "it": "Corretto il layout in Forefox",
+                "es": "Se corrigió el diseño en forefox",
+                "pl": "Poprawiono układ w Forefoxie",
+                "zh-cn": "修复了前言中的布局"
+            },
+            "0.4.1": {
+                "en": "Nulls and zeros are ignored now",
+                "de": "Nulls und Nullen werden jetzt ignoriert",
+                "ru": "Nulls и нули теперь игнорируются",
+                "pt": "Nulos e zeros são ignorados agora",
+                "nl": "Nulls en nullen worden nu genegeerd",
+                "fr": "Les valeurs Nulls et nulles sont désormais ignorées",
+                "it": "Nulli e zeri ora vengono ignorati",
+                "es": "Nulos y ceros son ignorados ahora",
+                "pl": "Nulls i zera są teraz ignorowane",
+                "zh-cn": "空和零现在被忽略"
+            },
             "0.3.4": {
                 "en": "Added possibility to define the station",
                 "de": "Möglichkeit zur Definition der Station hinzugefügt",

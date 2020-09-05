@@ -44,6 +44,12 @@ Select:
 - More than one station.
 
 ## Changelog
+### 0.4.2 (2020-09-05)
+* (ioBroker) Fixed the layout in forefox
+
+### 0.4.1 (2020-06-13)
+* (ioBroker) Ignore nulls and zeros
+
 ### 0.3.4 (2020-06-05)
 * (ioBroker) Added possibility to define the station
 
