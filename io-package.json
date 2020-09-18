@@ -1,9 +1,9 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.2",
+        "version": "0.4.3",
         "news": {
-            "0.4.2": {
+            "0.4.3": {
                 "en": "Fixed the layout in forefox",
                 "de": "Das Layout in Forefox wurde korrigiert",
                 "ru": "Исправлен макет в forefox",

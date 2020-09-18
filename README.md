@@ -34,7 +34,7 @@ To support more sensors or stations you need a valid license. Request it under i
 ## Update echarts (for developer)
 Go to https://www.echartsjs.com/en/builder.html 
 Select:
-- Chart: bar, line, pie, heatmap, 
+- Chart: bar, line, pie, heat-map, 
 - Coordinate Systems: grid
 - Component: title, legend, tooltip, MarkPoint, MarkArea, VisualMap, Toolbox
 - Others: SVG Renderer, Utilities, Code Compression
@@ -44,8 +44,8 @@ Select:
 - More than one station.
 
 ## Changelog
-### 0.4.2 (2020-09-05)
-* (ioBroker) Fixed the layout in forefox
+### 0.4.3 (2020-09-11)
+* (ioBroker) Fixed the layout in firefox
 
 ### 0.4.1 (2020-06-13)
 * (ioBroker) Ignore nulls and zeros
@@ -54,7 +54,7 @@ Select:
 * (ioBroker) Added possibility to define the station
 
 ### 0.3.2 (2020-05-29)
-* (ioBroker) Fixed the units for heatmap
+* (ioBroker) Fixed the units for heat-map
 
 ### 0.3.0 (2020-05-18)
 * (ioBroker) Calculate plan only in euro
