@@ -32,7 +32,7 @@ MS-SQL is not yet supported, but could be easily implemented if required.
 To support more sensors or stations you need a valid license. Request it under info@iobroker.com.   
     
 ## Update echarts (for developer)
-Go to https://www.echartsjs.com/en/builder.html 
+Go to https://echarts.apache.org/en/builder.html
 Select:
 - Chart: bar, line, pie, heat-map, 
 - Coordinate Systems: grid
@@ -44,6 +44,9 @@ Select:
 - More than one station.
 
 ## Changelog
+### 0.4.4 (2020-11-15)
+* (ioBroker) Implemented the combine by unit
+
 ### 0.4.3 (2020-09-11)
 * (ioBroker) Fixed the layout in firefox
 

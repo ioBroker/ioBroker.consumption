@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.3",
+        "version": "0.4.4",
         "news": {
+            "0.4.4": {
+                "en": "Implemented the combine by unit",
+                "de": "Implementiert den Mähdrescher nach Einheit",
+                "ru": "Реализовал комбайн по юнитам",
+                "pt": "Implementou a colheitadeira por unidade",
+                "nl": "De maaidorser per eenheid geïmplementeerd",
+                "fr": "Implémentation de la moissonneuse-batteuse à l'unité",
+                "it": "Implementata la mietitrebbia per unità",
+                "es": "Implementado la cosechadora por unidad",
+                "pl": "Zaimplementowano kombajn po jednostce",
+                "zh-cn": "实行单位合并"
+            },
             "0.4.3": {
                 "en": "Fixed the layout in forefox",
                 "de": "Das Layout in Forefox wurde korrigiert",
