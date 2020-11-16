@@ -1,9 +1,9 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.5",
+        "version": "0.4.6",
         "news": {
-            "0.4.5": {
+            "0.4.6": {
                 "en": "Implemented the combine by unit",
                 "de": "Implementiert den Mähdrescher nach Einheit",
                 "ru": "Реализовал комбайн по юнитам",
@@ -182,6 +182,7 @@
         "historyInstance": "sql.0",
         "license":     "",
         "startFrom": "",
+        "colorStep": 30,
         "resources": {
             "energy": {
                 "unit": "kWh",
