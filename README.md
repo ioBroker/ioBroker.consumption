@@ -44,7 +44,7 @@ Select:
 - More than one station.
 
 ## Changelog
-### 0.4.4 (2020-11-15)
+### 0.4.5 (2020-11-16)
 * (ioBroker) Implemented the combine by unit
 
 ### 0.4.3 (2020-09-11)
