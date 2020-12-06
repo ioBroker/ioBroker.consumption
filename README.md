@@ -15,8 +15,8 @@ You can define different resources, like water, heating, electricity and make an
 
 4 different analysis types are implemented:
 - Plan - Actual consumption in €/$ in this year compared with planned values and compared with previous year.
-- Donut - Comparision between sensors or resources in form of pie/donut diagram
-- Stack - Monthly consumption of every sensor and resource compared with data from previous year in form of stack bar diagram.
+- Donut - Comparison between sensors or resources in form of pie/donut diagram
+- Stack - Monthly consumption of every sensor and resource compared with data from the previous year in form of stack bar diagram.
 - Heat map - Hourly consumption in this year for resources 
 - Table - Monthly consumption of every sensor and resource compared with previous year in form of table  
 
@@ -31,7 +31,7 @@ MS-SQL is not yet supported, but could be easily implemented if required.
 **Free edition supports only 4 sensors and only one station.** 
 To support more sensors or stations you need a valid license. Request it under info@iobroker.com.   
     
-## Update echarts (for developer)
+## Update echarts (only for the developers)
 Go to https://echarts.apache.org/en/builder.html
 Select:
 - Chart: bar, line, pie, heat-map, 
@@ -42,8 +42,14 @@ Select:
 ## ToDo
 - Export data as PDF
 - More than one station.
-
+<!--
+	Placeholder for the next version (at the beginning of the line):
+	### __WORK IN PROGRESS__
+-->
 ## Changelog
+### 0.4.8 (2020-12-06)
+* (ioBroker) Corrected error with the pie chart
+
 ### 0.4.7 (2020-11-16)
 * (ioBroker) Implemented the combine by unit
 

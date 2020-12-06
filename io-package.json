@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.7",
+        "version": "0.4.8",
         "news": {
+            "0.4.8": {
+                "en": "Corrected error with the pie chart",
+                "de": "Fehler mit dem Kreisdiagramm behoben",
+                "ru": "Исправлена ошибка с круговой диаграммой",
+                "pt": "Erro corrigido com o gráfico de pizza",
+                "nl": "Fout gecorrigeerd met het cirkeldiagram",
+                "fr": "Erreur corrigée avec le graphique à secteurs",
+                "it": "Errore corretto con il grafico a torta",
+                "es": "Error corregido con el gráfico circular",
+                "pl": "Poprawiony błąd na wykresie kołowym",
+                "zh-cn": "饼图已更正错误"
+            },
             "0.4.7": {
                 "en": "Implemented the combine by unit",
                 "de": "Implementiert den Mähdrescher nach Einheit",
@@ -180,7 +192,7 @@
     "native": {
         "statisticsInstance": "_",
         "historyInstance": "sql.0",
-        "license":     "",
+        "license": "",
         "startFrom": "",
         "colorStep": 30,
         "resources": {
