@@ -26,11 +26,43 @@ It should work with SQLite too, but it is not recommended because of performance
  
 MS-SQL is not yet supported, but could be easily implemented if required. 
 
-**Adapter is yet beta.**
+**Adapter is still beta.**
     
 **Free edition supports only 4 sensors and only one station.** 
 To support more sensors or stations you need a valid license. Request it under info@iobroker.com.   
-    
+
+## Usage
+You have resources (like water, energy, heating, gas, etc), stations (like house, dacha, village villa, etc) and sensors.
+
+Sensor is a counter, that always increases its value like electricity meter that always growing.
+
+You must spread all these sensors first into defined resources and then into stations.
+
+**Actually is only one station is supported!**
+
+After that you can analyse your consumption in time and resources over years.
+
+You can compare the actual year with the previous one and build some prognose about consumption.
+
+Plan over all costs for the current year.
+![Prognose](img/planAll.png)
+
+Distribution of costs by resources.
+![Prognose](img/pieAll.png)
+
+Distribution of consumption by sensors of one resource.
+![Prognose](img/pieHeating.png)
+
+Distribution of consumption by sensors and months of one resource.
+![Prognose](img/stackBarWater.png)
+
+Heatmap of consumption of one resource for the current year.
+![Prognose](img/heatmap.png)
+
+Table of consumption of one resource for the current year for every month.
+![Prognose](img/tableHeating.png)
+
+
 ## Update echarts (only for the developers)
 Go to https://echarts.apache.org/en/builder.html
 Select:
