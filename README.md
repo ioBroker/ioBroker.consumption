@@ -51,7 +51,7 @@ Select:
 -->
 
 ## Changelog
-### 0.4.10 (2020-12-10)
+### 0.4.11 (2020-12-10)
 * (ioBroker) Corrected the widget errors 
 
 ### 0.4.9 (2020-12-06)

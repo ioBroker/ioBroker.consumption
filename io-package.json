@@ -1,9 +1,9 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.10",
+        "version": "0.4.11",
         "news": {
-            "0.4.10": {
+            "0.4.11": {
                 "en": "Corrected the widget errors",
                 "de": "Die Widget-Fehler wurden behoben",
                 "ru": "Исправлены ошибки виджета",
