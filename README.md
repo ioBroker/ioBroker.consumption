@@ -42,12 +42,19 @@ Select:
 ## ToDo
 - Export data as PDF
 - More than one station.
+- Alle => kwh and M2 does not work
+- Switch Alle (kWh) => Wärme: Unit ist € aber Werte sind von Kwh 
+
 <!--
 	Placeholder for the next version (at the beginning of the line):
 	### __WORK IN PROGRESS__
 -->
+
 ## Changelog
-### 0.4.8 (2020-12-06)
+### 0.4.10 (2020-12-10)
+* (ioBroker) Corrected the widget errors 
+
+### 0.4.9 (2020-12-06)
 * (ioBroker) Corrected error with the pie chart
 
 ### 0.4.7 (2020-11-16)

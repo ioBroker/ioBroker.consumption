@@ -1,12 +1,12 @@
 {
   "name": "iobroker.consumption",
-  "version": "0.4.8",
+  "version": "0.4.10",
   "description": "Calculates consumption for defined sensors and resources",
   "author": {
     "name": "ioBroker",
     "email": "dogafox@gmail.com"
   },
-  "homepage": "https://github.com/bluefox/ioBroker.consumption",
+  "homepage": "https://github.com/ioBroker/ioBroker.consumption",
   "license": "LicenseRef-LICENSE",
   "keywords": [
     "statistics",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bluefox/ioBroker.consumption"
+    "url": "https://github.com/ioBroker/ioBroker.consumption"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.4.0"
@@ -69,7 +69,7 @@
     "release": "node node_modules/@alcalzone/release-script/bin/release.js"
   },
   "bugs": {
-    "url": "https://github.com/bluefox/ioBroker.consumption/issues"
+    "url": "https://github.com/ioBroker/ioBroker.consumption/issues"
   },
   "readmeFilename": "README.md"
 }

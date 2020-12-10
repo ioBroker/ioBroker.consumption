@@ -1,9 +1,21 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.8",
+        "version": "0.4.10",
         "news": {
-            "0.4.8": {
+            "0.4.10": {
+                "en": "Corrected the widget errors",
+                "de": "Die Widget-Fehler wurden behoben",
+                "ru": "Исправлены ошибки виджета",
+                "pt": "Corrigidos os erros do widget",
+                "nl": "De widgetfouten zijn gecorrigeerd",
+                "fr": "Correction des erreurs de widget",
+                "it": "Corretti gli errori del widget",
+                "es": "Corregidos los errores del widget.",
+                "pl": "Poprawiono błędy widżetów",
+                "zh-cn": "更正了小部件错误"
+            },
+            "0.4.9": {
                 "en": "Corrected error with the pie chart",
                 "de": "Fehler mit dem Kreisdiagramm behoben",
                 "ru": "Исправлена ошибка с круговой диаграммой",
@@ -175,8 +187,8 @@
         "main": "main.js",
         "icon": "consumption.png",
         "enabled": false,
-        "extIcon": "https://raw.githubusercontent.com/bluefox/ioBroker.consumption/master/admin/consumption.png",
-        "readme": "https://github.com/bluefox/ioBroker.consumption/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.consumption/master/admin/consumption.png",
+        "readme": "https://github.com/ioBroker/ioBroker.consumption/blob/master/README.md",
         "loglevel": "info",
         "mode": "daemon",
         "type": "logic",
@@ -194,7 +206,8 @@
         "historyInstance": "sql.0",
         "license": "",
         "startFrom": "",
-        "colorStep": 30,
+        "colorStepStackBar": 30,
+        "colorStepDonut": 30,
         "resources": {
             "energy": {
                 "unit": "kWh",
