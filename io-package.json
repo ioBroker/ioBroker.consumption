@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.11",
+        "version": "0.4.12",
         "news": {
+            "0.4.12": {
+                "en": "Added stations editor",
+                "de": "Sendereditor hinzugefügt",
+                "ru": "Добавлен редактор станций",
+                "pt": "Editor de estações adicionado",
+                "nl": "Stationseditor toegevoegd",
+                "fr": "Éditeur de stations ajouté",
+                "it": "Aggiunto editor delle stazioni",
+                "es": "Editor de estaciones agregado",
+                "pl": "Dodano edytor stacji",
+                "zh-cn": "添加了电台编辑器"
+            },
             "0.4.11": {
                 "en": "Corrected the widget errors",
                 "de": "Die Widget-Fehler wurden behoben",

@@ -83,45 +83,48 @@ Select:
 -->
 
 ## Changelog
+### 0.4.12 (2020-12-12)
+* (bluefox) Added stations editor
+
 ### 0.4.11 (2020-12-10)
-* (ioBroker) Corrected the widget errors 
+* (bluefox) Corrected the widget errors 
 
 ### 0.4.9 (2020-12-06)
-* (ioBroker) Corrected error with the pie chart
+* (bluefox) Corrected error with the pie chart
 
 ### 0.4.7 (2020-11-16)
-* (ioBroker) Implemented the combine by unit
+* (bluefox) Implemented the combine by unit
 
 ### 0.4.3 (2020-09-11)
-* (ioBroker) Fixed the layout in firefox
+* (bluefox) Fixed the layout in firefox
 
 ### 0.4.1 (2020-06-13)
-* (ioBroker) Ignore nulls and zeros
+* (bluefox) Ignore nulls and zeros
 
 ### 0.3.4 (2020-06-05)
-* (ioBroker) Added possibility to define the station
+* (bluefox) Added possibility to define the station
 
 ### 0.3.2 (2020-05-29)
-* (ioBroker) Fixed the units for heat-map
+* (bluefox) Fixed the units for heat-map
 
 ### 0.3.0 (2020-05-18)
-* (ioBroker) Calculate plan only in euro
+* (bluefox) Calculate plan only in euro
 
 ### 0.2.7 (2020-05-16)
-* (ioBroker) Set index for every sensor
+* (bluefox) Set index for every sensor
 
 ### 0.1.6 (2020-05-03)
-* (ioBroker) Implement planning start from 
+* (bluefox) Implement planning start from 
 
 ### 0.1.4 (2020-05-03)
-* (ioBroker) Make widget compatible with older devices
-* (ioBroker) Added price for every sensor
+* (bluefox) Make widget compatible with older devices
+* (bluefox) Added price for every sensor
 
 ### 0.1.2
-* (ioBroker) finished
+* (bluefox) finished
 
 ### 0.0.2
-* (ioBroker) initial release
+* (bluefox) initial release
 
 ## License
 
