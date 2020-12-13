@@ -83,6 +83,9 @@ Select:
 -->
 
 ## Changelog
+### 0.4.13 (2020-12-13)
+* (bluefox) Updated the select ID dialog
+
 ### 0.4.12 (2020-12-12)
 * (bluefox) Added stations editor
 
