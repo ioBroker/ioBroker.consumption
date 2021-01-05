@@ -83,6 +83,9 @@ Select:
 -->
 
 ## Changelog
+### 0.4.14 (2021-01-05)
+* (bluefox) Corrected price calculation
+
 ### 0.4.13 (2020-12-13)
 * (bluefox) Updated the select ID dialog
 
@@ -133,7 +136,7 @@ Select:
 
 Commercial license.
 
-(c) Copyright 2020 Bluefox <dogafox@gmail.com>, all rights reserved.
+(c) Copyright 2020-2021 Bluefox <dogafox@gmail.com>, all rights reserved.
 
 This license is a legal agreement between you and ioBroker GmbH (“ioBroker”) for the use of ioBroker.consumption adapter (the “Software”).
 By downloading of ioBroker.consumption adapter you agree to be bound by the terms and conditions of this license.

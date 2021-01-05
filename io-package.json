@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.13",
+        "version": "0.4.14",
         "news": {
+            "0.4.14": {
+                "en": "Corrected price calculation",
+                "de": "Preisberechnung korrigiert",
+                "ru": "Скорректированный расчет цены",
+                "pt": "Cálculo de preço corrigido",
+                "nl": "Prijsberekening gecorrigeerd",
+                "fr": "Calcul du prix corrigé",
+                "it": "Calcolo del prezzo corretto",
+                "es": "Cálculo de precio corregido",
+                "pl": "Poprawiona kalkulacja ceny",
+                "zh-cn": "更正的价格计算"
+            },
             "0.4.13": {
                 "en": "Updated the select ID dialog",
                 "de": "Das Dialogfeld \"ID auswählen\" wurde aktualisiert",
