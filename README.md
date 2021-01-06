@@ -62,6 +62,15 @@ Heatmap of consumption of one resource for the current year.
 Table of consumption of one resource for the current year for every month.
 ![Prognose](img/tableHeating.png)
 
+### Covert function
+The sensor data can be converted, but the formula must be linear.
+You can write the formula in javascript, but take care that the result must be a number(float).
+Examples:
+- Wh => kWh: `val / 1000`
+- kWh => Wh: `val * 1000`
+- °F => °C: `(val - 32) / 1.8`
+- °C => °F: `val * 1.8 + 32`
+
 
 ## Update echarts (only for the developers)
 Go to https://echarts.apache.org/en/builder.html
