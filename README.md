@@ -74,8 +74,7 @@ Select:
 ## ToDo
 - Export data as PDF
 - More than one station.
-- Alle => kwh and M2 does not work
-- Switch Alle (kWh) => Wärme: Unit ist € aber Werte sind von Kwh 
+- Style selects according to theme (unit, start, end)
 
 <!--
 	Placeholder for the next version (at the beginning of the line):
@@ -83,6 +82,10 @@ Select:
 -->
 
 ## Changelog
+### 0.4.15 (2021-01-06)
+* (bluefox) Corrected forecast calculation based on current second of the month
+* (bluefox) Added convert function
+
 ### 0.4.14 (2021-01-05)
 * (bluefox) Corrected price calculation
 

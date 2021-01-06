@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.14",
+        "version": "0.4.15",
         "news": {
+            "0.4.15": {
+                "en": "Corrected forecast calculation based on current second of the month\nAdded convert function",
+                "de": "Prognoseberechnung basierend auf der aktuellen Sekunde des Monats korrigiert\nKonvertierungsfunktion hinzugefügt",
+                "ru": "Скорректированный расчет прогноза по текущей секунде месяца\nДобавлена функция преобразования",
+                "pt": "Cálculo de previsão corrigido com base no segundo atual do mês\nAdicionada função de conversão",
+                "nl": "Gecorrigeerde prognoseberekening op basis van de huidige seconde van de maand\nConverteerfunctie toegevoegd",
+                "fr": "Calcul des prévisions corrigé en fonction de la seconde du mois en cours\nAjout de la fonction de conversion",
+                "it": "Calcolo della previsione corretto in base al secondo del mese corrente\nAggiunta la funzione di conversione",
+                "es": "Cálculo de pronóstico corregido basado en el segundo actual del mes\nFunción de conversión agregada",
+                "pl": "Skorygowane obliczenia prognozy na podstawie bieżącej sekundy miesiąca\nDodano funkcję konwersji",
+                "zh-cn": "根据当前月份的第二个月更正了预测计算\n增加了转换功能"
+            },
             "0.4.14": {
                 "en": "Corrected price calculation",
                 "de": "Preisberechnung korrigiert",
@@ -287,12 +299,14 @@
                             {
                                 "name": "Sensor1",
                                 "sensorId": "mbus.0.11bbcc.counter",
-                                "price": 0.25
+                                "price": 0.25,
+                                "factor": 1
                             },
                             {
                                 "name": "Sensor2",
                                 "sensorId": "mbus.0.11bbcd.counter",
-                                "useSource": true
+                                "useSource": true,
+                                "factor": 1
                             }
                         ]
                     }
