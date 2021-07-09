@@ -80,7 +80,6 @@ Select:
 - Component: title, legend, tooltip, MarkPoint, MarkArea, VisualMap, Toolbox
 - Others: SVG Renderer, Utilities, Code Compression
 
-## ToDo
 - Export data as PDF
 - More than one station.
 - Style selects according to theme (unit, start, end)
@@ -91,6 +90,12 @@ Select:
 -->
 
 ## Changelog
+### 0.4.18 (2021-07-09)
+* (bluefox) The warnings were corrected 
+
+### 0.4.17 (2021-01-16)
+* (bluefox) Corrected the conversion of values
+
 ### 0.4.15 (2021-01-06)
 * (bluefox) Corrected forecast calculation based on current second of the month
 * (bluefox) Added convert function

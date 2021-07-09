@@ -1,8 +1,32 @@
 {
     "common": {
         "name": "consumption",
-        "version": "0.4.15",
+        "version": "0.4.18",
         "news": {
+            "0.4.18": {
+                "en": "The warnings were corrected",
+                "de": "Die Warnungen wurden korrigiert",
+                "ru": "Предупреждения исправлены",
+                "pt": "Os avisos foram corrigidos",
+                "nl": "De waarschuwingen zijn gecorrigeerd",
+                "fr": "Les avertissements ont été corrigés",
+                "it": "Gli avvertimenti sono stati corretti",
+                "es": "Las advertencias fueron corregidas",
+                "pl": "Ostrzeżenia zostały poprawione",
+                "zh-cn": "警告已更正"
+            },
+            "0.4.17": {
+                "en": "Corrected the conversion of values",
+                "de": "Die Umrechnung von Werten wurde korrigiert",
+                "ru": "Исправлена конвертация значений",
+                "pt": "Corrigida a conversão de valores",
+                "nl": "De conversie van waarden gecorrigeerd",
+                "fr": "Correction de la conversion des valeurs",
+                "it": "Corretta la conversione dei valori",
+                "es": "Corregida la conversión de valores.",
+                "pl": "Poprawiono konwersję wartości",
+                "zh-cn": "更正了值的转换"
+            },
             "0.4.15": {
                 "en": "Corrected forecast calculation based on current second of the month\nAdded convert function",
                 "de": "Prognoseberechnung basierend auf der aktuellen Sekunde des Monats korrigiert\nKonvertierungsfunktion hinzugefügt",
