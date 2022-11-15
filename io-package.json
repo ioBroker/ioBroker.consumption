@@ -1,343 +1,212 @@
 {
-    "common": {
-        "name": "consumption",
-        "version": "0.4.18",
-        "news": {
-            "0.4.18": {
-                "en": "The warnings were corrected",
-                "de": "Die Warnungen wurden korrigiert",
-                "ru": "Предупреждения исправлены",
-                "pt": "Os avisos foram corrigidos",
-                "nl": "De waarschuwingen zijn gecorrigeerd",
-                "fr": "Les avertissements ont été corrigés",
-                "it": "Gli avvertimenti sono stati corretti",
-                "es": "Las advertencias fueron corregidas",
-                "pl": "Ostrzeżenia zostały poprawione",
-                "zh-cn": "警告已更正"
-            },
-            "0.4.17": {
-                "en": "Corrected the conversion of values",
-                "de": "Die Umrechnung von Werten wurde korrigiert",
-                "ru": "Исправлена конвертация значений",
-                "pt": "Corrigida a conversão de valores",
-                "nl": "De conversie van waarden gecorrigeerd",
-                "fr": "Correction de la conversion des valeurs",
-                "it": "Corretta la conversione dei valori",
-                "es": "Corregida la conversión de valores.",
-                "pl": "Poprawiono konwersję wartości",
-                "zh-cn": "更正了值的转换"
-            },
-            "0.4.15": {
-                "en": "Corrected forecast calculation based on current second of the month\nAdded convert function",
-                "de": "Prognoseberechnung basierend auf der aktuellen Sekunde des Monats korrigiert\nKonvertierungsfunktion hinzugefügt",
-                "ru": "Скорректированный расчет прогноза по текущей секунде месяца\nДобавлена функция преобразования",
-                "pt": "Cálculo de previsão corrigido com base no segundo atual do mês\nAdicionada função de conversão",
-                "nl": "Gecorrigeerde prognoseberekening op basis van de huidige seconde van de maand\nConverteerfunctie toegevoegd",
-                "fr": "Calcul des prévisions corrigé en fonction de la seconde du mois en cours\nAjout de la fonction de conversion",
-                "it": "Calcolo della previsione corretto in base al secondo del mese corrente\nAggiunta la funzione di conversione",
-                "es": "Cálculo de pronóstico corregido basado en el segundo actual del mes\nFunción de conversión agregada",
-                "pl": "Skorygowane obliczenia prognozy na podstawie bieżącej sekundy miesiąca\nDodano funkcję konwersji",
-                "zh-cn": "根据当前月份的第二个月更正了预测计算\n增加了转换功能"
-            },
-            "0.4.14": {
-                "en": "Corrected price calculation",
-                "de": "Preisberechnung korrigiert",
-                "ru": "Скорректированный расчет цены",
-                "pt": "Cálculo de preço corrigido",
-                "nl": "Prijsberekening gecorrigeerd",
-                "fr": "Calcul du prix corrigé",
-                "it": "Calcolo del prezzo corretto",
-                "es": "Cálculo de precio corregido",
-                "pl": "Poprawiona kalkulacja ceny",
-                "zh-cn": "更正的价格计算"
-            },
-            "0.4.13": {
-                "en": "Updated the select ID dialog",
-                "de": "Das Dialogfeld \"ID auswählen\" wurde aktualisiert",
-                "ru": "Обновлен диалог выбора идентификатора.",
-                "pt": "Atualizado a caixa de diálogo de seleção de ID",
-                "nl": "Het dialoogvenster ID selecteren bijgewerkt",
-                "fr": "Mise à jour de la boîte de dialogue de sélection d'ID",
-                "it": "Aggiornata la finestra di dialogo Seleziona ID",
-                "es": "Se actualizó el cuadro de diálogo Seleccionar ID",
-                "pl": "Zaktualizowano okno dialogowe wyboru identyfikatora",
-                "zh-cn": "更新了选择ID对话框"
-            },
-            "0.4.12": {
-                "en": "Added stations editor",
-                "de": "Sendereditor hinzugefügt",
-                "ru": "Добавлен редактор станций",
-                "pt": "Editor de estações adicionado",
-                "nl": "Stationseditor toegevoegd",
-                "fr": "Éditeur de stations ajouté",
-                "it": "Aggiunto editor delle stazioni",
-                "es": "Editor de estaciones agregado",
-                "pl": "Dodano edytor stacji",
-                "zh-cn": "添加了电台编辑器"
-            },
-            "0.4.11": {
-                "en": "Corrected the widget errors",
-                "de": "Die Widget-Fehler wurden behoben",
-                "ru": "Исправлены ошибки виджета",
-                "pt": "Corrigidos os erros do widget",
-                "nl": "De widgetfouten zijn gecorrigeerd",
-                "fr": "Correction des erreurs de widget",
-                "it": "Corretti gli errori del widget",
-                "es": "Corregidos los errores del widget.",
-                "pl": "Poprawiono błędy widżetów",
-                "zh-cn": "更正了小部件错误"
-            },
-            "0.4.9": {
-                "en": "Corrected error with the pie chart",
-                "de": "Fehler mit dem Kreisdiagramm behoben",
-                "ru": "Исправлена ошибка с круговой диаграммой",
-                "pt": "Erro corrigido com o gráfico de pizza",
-                "nl": "Fout gecorrigeerd met het cirkeldiagram",
-                "fr": "Erreur corrigée avec le graphique à secteurs",
-                "it": "Errore corretto con il grafico a torta",
-                "es": "Error corregido con el gráfico circular",
-                "pl": "Poprawiony błąd na wykresie kołowym",
-                "zh-cn": "饼图已更正错误"
-            },
-            "0.4.7": {
-                "en": "Implemented the combine by unit",
-                "de": "Implementiert den Mähdrescher nach Einheit",
-                "ru": "Реализовал комбайн по юнитам",
-                "pt": "Implementou a colheitadeira por unidade",
-                "nl": "De maaidorser per eenheid geïmplementeerd",
-                "fr": "Implémentation de la moissonneuse-batteuse à l'unité",
-                "it": "Implementata la mietitrebbia per unità",
-                "es": "Implementado la cosechadora por unidad",
-                "pl": "Zaimplementowano kombajn po jednostce",
-                "zh-cn": "实行单位合并"
-            },
-            "0.4.3": {
-                "en": "Fixed the layout in forefox",
-                "de": "Das Layout in Forefox wurde korrigiert",
-                "ru": "Исправлен макет в forefox",
-                "pt": "Corrigido o layout no forefox",
-                "nl": "De lay-out in forefox opgelost",
-                "fr": "Correction de la mise en page dans forefox",
-                "it": "Corretto il layout in Forefox",
-                "es": "Se corrigió el diseño en forefox",
-                "pl": "Poprawiono układ w Forefoxie",
-                "zh-cn": "修复了前言中的布局"
-            },
-            "0.4.1": {
-                "en": "Nulls and zeros are ignored now",
-                "de": "Nulls und Nullen werden jetzt ignoriert",
-                "ru": "Nulls и нули теперь игнорируются",
-                "pt": "Nulos e zeros são ignorados agora",
-                "nl": "Nulls en nullen worden nu genegeerd",
-                "fr": "Les valeurs Nulls et nulles sont désormais ignorées",
-                "it": "Nulli e zeri ora vengono ignorati",
-                "es": "Nulos y ceros son ignorados ahora",
-                "pl": "Nulls i zera są teraz ignorowane",
-                "zh-cn": "空和零现在被忽略"
-            },
-            "0.3.4": {
-                "en": "Added possibility to define the station",
-                "de": "Möglichkeit zur Definition der Station hinzugefügt",
-                "ru": "Добавлена возможность задать станцию",
-                "pt": "Possibilidade adicionada para definir a estação",
-                "nl": "Mogelijkheid toegevoegd om het station te definiëren",
-                "fr": "Ajout de la possibilité de définir la station",
-                "it": "Aggiunta la possibilità di definire la stazione",
-                "es": "Posibilidad adicional de definir la estación",
-                "pl": "Dodano możliwość zdefiniowania stacji",
-                "zh-cn": "增加了定义桩号的可能性"
-            },
-            "0.3.2": {
-                "en": "Fixed the units for heatmap",
-                "de": "Die Einheiten für die Heatmap wurden korrigiert",
-                "ru": "Исправлены единицы измерения для карты тепла.",
-                "pt": "Corrigidas as unidades para o mapa de calor",
-                "nl": "Vaste de eenheden voor heatmap",
-                "fr": "Correction des unités pour la carte thermique",
-                "it": "Risolte le unità per la mappa di calore",
-                "es": "Se corrigieron las unidades para el mapa de calor",
-                "pl": "Naprawiono jednostki mapy cieplnej",
-                "zh-cn": "修复了热图的单位"
-            },
-            "0.3.0": {
-                "en": "Calculate plan only in euro",
-                "de": "Plan nur in Euro berechnen",
-                "ru": "Рассчитать план только в евро",
-                "pt": "Calcular plano apenas em euros",
-                "nl": "Bereken plan alleen in euro",
-                "fr": "Calculer le plan uniquement en euros",
-                "it": "Calcola il piano solo in euro",
-                "es": "Calcular plan solo en euros",
-                "pl": "Oblicz plan tylko w euro",
-                "zh-cn": "仅以欧元计算计划"
-            },
-            "0.2.7": {
-                "en": "Set index for every sensor",
-                "de": "Stellen Sie den Index für jeden Sensor ein",
-                "ru": "Установить индекс для каждого датчика",
-                "pt": "Definir índice para cada sensor",
-                "nl": "Stel een index in voor elke sensor",
-                "fr": "Définir l'indice pour chaque capteur",
-                "it": "Imposta indice per ogni sensore",
-                "es": "Establecer índice para cada sensor",
-                "pl": "Ustaw indeks dla każdego czujnika",
-                "zh-cn": "设置每个传感器的索引"
-            },
-            "0.1.6": {
-                "en": "Make widget compatible with older devices\nAdded price for every sensor",
-                "de": "Machen Sie das Widget mit älteren Geräten kompatibel\nMehrpreis für jeden Sensor",
-                "ru": "Сделать виджет совместимым со старыми устройствами\nДобавленная цена для каждого датчика",
-                "pt": "Tornar o widget compatível com dispositivos mais antigos\nPreço adicional para cada sensor",
-                "nl": "Maak widget compatibel met oudere apparaten\nToegevoegde prijs voor elke sensor",
-                "fr": "Rendre le widget compatible avec les appareils plus anciens\nPrix supplémentaire pour chaque capteur",
-                "it": "Rendi il widget compatibile con i dispositivi più vecchi\nPrezzo aggiunto per ogni sensore",
-                "es": "Hacer widget compatible con dispositivos más antiguos\nPrecio agregado para cada sensor",
-                "pl": "Dostosuj widget do starszych urządzeń\nDodano cenę za każdy czujnik",
-                "zh-cn": "使小部件与旧设备兼容\n每个传感器加价"
-            },
-            "0.1.2": {
-                "en": "finished",
-                "de": "fertig",
-                "ru": "законченно",
-                "pt": "acabado",
-                "nl": "afgewerkt",
-                "fr": "fini",
-                "it": "finito",
-                "es": "terminado",
-                "pl": "skończone",
-                "zh-cn": "完了"
-            },
-            "0.0.2": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "zh-cn": "首次出版"
-            }
+  "common": {
+    "name": "consumption",
+    "version": "0.4.21",
+    "news": {
+      "0.4.21": {
+        "en": "Charts were corrected",
+        "de": "Diagramme wurden korrigiert",
+        "ru": "Графики были исправлены",
+        "pt": "Gráficos foram corrigidos",
+        "nl": "Charts werden gecorrigeerd",
+        "fr": "Les graphiques ont été corrigés",
+        "it": "I grafici sono stati corretti",
+        "es": "Los Gráficos fueron corregidos",
+        "pl": "Charts został skorygowany",
+        "uk": "Графіки були виправлені",
+        "zh-cn": "修改了艺术"
+      },
+      "0.4.20": {
+        "en": "GUI was improved",
+        "de": "GUI wurde verbessert",
+        "ru": "GUI улучшено",
+        "pt": "GUI foi melhorada",
+        "nl": "GUI werd verbeterd",
+        "fr": "GUI a été amélioré",
+        "it": "GUI è stata migliorata",
+        "es": "GUI was improved",
+        "pl": "GUI został ulepszony",
+        "zh-cn": "古伊人得到改善"
+      },
+      "0.4.18": {
+        "en": "The warnings were corrected",
+        "de": "Die Warnungen wurden korrigiert",
+        "ru": "Предупреждения исправлены",
+        "pt": "Os avisos foram corrigidos",
+        "nl": "De waarschuwingen zijn gecorrigeerd",
+        "fr": "Les avertissements ont été corrigés",
+        "it": "Gli avvertimenti sono stati corretti",
+        "es": "Las advertencias fueron corregidas",
+        "pl": "Ostrzeżenia zostały poprawione",
+        "zh-cn": "警告已更正"
+      },
+      "0.4.17": {
+        "en": "Corrected the conversion of values",
+        "de": "Die Umrechnung von Werten wurde korrigiert",
+        "ru": "Исправлена конвертация значений",
+        "pt": "Corrigida a conversão de valores",
+        "nl": "De conversie van waarden gecorrigeerd",
+        "fr": "Correction de la conversion des valeurs",
+        "it": "Corretta la conversione dei valori",
+        "es": "Corregida la conversión de valores.",
+        "pl": "Poprawiono konwersję wartości",
+        "zh-cn": "更正了值的转换"
+      },
+      "0.4.15": {
+        "en": "Corrected forecast calculation based on current second of the month\nAdded convert function",
+        "de": "Prognoseberechnung basierend auf der aktuellen Sekunde des Monats korrigiert\nKonvertierungsfunktion hinzugefügt",
+        "ru": "Скорректированный расчет прогноза по текущей секунде месяца\nДобавлена функция преобразования",
+        "pt": "Cálculo de previsão corrigido com base no segundo atual do mês\nAdicionada função de conversão",
+        "nl": "Gecorrigeerde prognoseberekening op basis van de huidige seconde van de maand\nConverteerfunctie toegevoegd",
+        "fr": "Calcul des prévisions corrigé en fonction de la seconde du mois en cours\nAjout de la fonction de conversion",
+        "it": "Calcolo della previsione corretto in base al secondo del mese corrente\nAggiunta la funzione di conversione",
+        "es": "Cálculo de pronóstico corregido basado en el segundo actual del mes\nFunción de conversión agregada",
+        "pl": "Skorygowane obliczenia prognozy na podstawie bieżącej sekundy miesiąca\nDodano funkcję konwersji",
+        "zh-cn": "根据当前月份的第二个月更正了预测计算\n增加了转换功能"
+      },
+      "0.4.14": {
+        "en": "Corrected price calculation",
+        "de": "Preisberechnung korrigiert",
+        "ru": "Скорректированный расчет цены",
+        "pt": "Cálculo de preço corrigido",
+        "nl": "Prijsberekening gecorrigeerd",
+        "fr": "Calcul du prix corrigé",
+        "it": "Calcolo del prezzo corretto",
+        "es": "Cálculo de precio corregido",
+        "pl": "Poprawiona kalkulacja ceny",
+        "zh-cn": "更正的价格计算"
+      },
+      "0.4.13": {
+        "en": "Updated the select ID dialog",
+        "de": "Das Dialogfeld \"ID auswählen\" wurde aktualisiert",
+        "ru": "Обновлен диалог выбора идентификатора.",
+        "pt": "Atualizado a caixa de diálogo de seleção de ID",
+        "nl": "Het dialoogvenster ID selecteren bijgewerkt",
+        "fr": "Mise à jour de la boîte de dialogue de sélection d'ID",
+        "it": "Aggiornata la finestra di dialogo Seleziona ID",
+        "es": "Se actualizó el cuadro de diálogo Seleccionar ID",
+        "pl": "Zaktualizowano okno dialogowe wyboru identyfikatora",
+        "zh-cn": "更新了选择ID对话框"
+      }
+    },
+    "title": "Consumption statistics",
+    "titleLang": {
+      "en": "Consumption statistics",
+      "de": "Verbrauchsstatistik",
+      "ru": "Статистика потребления",
+      "pt": "Estatísticas de consumo",
+      "nl": "Verbruiksstatistieken",
+      "fr": "Statistiques de consommation",
+      "it": "Statistiche sui consumi",
+      "es": "Estadísticas de consumo",
+      "pl": "Statystyka zużycia",
+      "zh-cn": "消费统计"
+    },
+    "desc": {
+      "en": "Calculates consumption for defined sensors and resources",
+      "de": "Berechnet den Verbrauch für definierte Sensoren und Ressourcen",
+      "ru": "Рассчитывает потребление для определенных датчиков и ресурсов",
+      "pt": "Calcula o consumo de sensores e recursos definidos",
+      "nl": "Berekent het verbruik voor gedefinieerde sensoren en bronnen",
+      "fr": "Calcule la consommation de capteurs et de ressources définis",
+      "it": "Calcola il consumo per sensori e risorse definiti",
+      "es": "Calcula el consumo de sensores y recursos definidos.",
+      "pl": "Oblicza zużycie dla zdefiniowanych czujników i zasobów",
+      "zh-cn": "计算定义的传感器和资源的消耗"
+    },
+    "authors": [
+      "ioBroker <dogafox@gmail.com>"
+    ],
+    "keywords": [
+      "statistics",
+      "consumption",
+      "resources",
+      "energy"
+    ],
+    "license": "LicenseRef-LICENSE",
+    "platform": "Javascript/Node.js",
+    "main": "main.js",
+    "icon": "consumption.png",
+    "enabled": false,
+    "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.consumption/master/admin/consumption.png",
+    "readme": "https://github.com/ioBroker/ioBroker.consumption/blob/master/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "logic",
+    "compact": true,
+    "materialize": true,
+    "messagebox": true,
+    "dependencies": [
+      {
+        "sql": ">=1.13.0"
+      }
+    ]
+  },
+  "native": {
+    "statisticsInstance": "_",
+    "historyInstance": "sql.0",
+    "license": "",
+    "startFrom": "",
+    "colorStepStackBar": 30,
+    "colorStepDonut": 30,
+    "resources": {
+      "energy": {
+        "unit": "kWh",
+        "price": 0.3,
+        "name": {
+          "en": "Energy",
+          "de": "Strom"
         },
-        "title": "Consumption statistics",
-        "titleLang": {
-            "en": "Consumption statistics",
-            "de": "Verbrauchsstatistik",
-            "ru": "Статистика потребления",
-            "pt": "Estatísticas de consumo",
-            "nl": "Verbruiksstatistieken",
-            "fr": "Statistiques de consommation",
-            "it": "Statistiche sui consumi",
-            "es": "Estadísticas de consumo",
-            "pl": "Statystyka zużycia",
-            "zh-cn": "消费统计"
+        "color": "#FF1D27",
+        "icon": "⚡"
+      },
+      "water": {
+        "unit": "L",
+        "price": 1.8,
+        "name": {
+          "en": "Water",
+          "de": "Wasser"
         },
-        "desc": {
-            "en": "Calculates consumption for defined sensors and resources",
-            "de": "Berechnet den Verbrauch für definierte Sensoren und Ressourcen",
-            "ru": "Рассчитывает потребление для определенных датчиков и ресурсов",
-            "pt": "Calcula o consumo de sensores e recursos definidos",
-            "nl": "Berekent het verbruik voor gedefinieerde sensoren en bronnen",
-            "fr": "Calcule la consommation de capteurs et de ressources définis",
-            "it": "Calcola il consumo per sensori e risorse definiti",
-            "es": "Calcula el consumo de sensores y recursos definidos.",
-            "pl": "Oblicza zużycie dla zdefiniowanych czujników i zasobów",
-            "zh-cn": "计算定义的传感器和资源的消耗"
+        "color": "#3C4FFF",
+        "icon": "💧"
+      },
+      "heat": {
+        "unit": "kWh",
+        "price": 0.17,
+        "name": {
+          "en": "Heat",
+          "de": "Wärme"
         },
-        "authors": [
-            "ioBroker <dogafox@gmail.com>"
-        ],
-        "keywords": [
-            "statistics",
-            "consumption",
-            "resources",
-            "energy"
-        ],
-        "license": "LicenseRef-LICENSE",
-        "platform": "Javascript/Node.js",
-        "main": "main.js",
-        "icon": "consumption.png",
+        "color": "#b39910",
+        "icon": "🔥"
+      }
+    },
+    "stations": {
+      "Station01": {
         "enabled": false,
-        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.consumption/master/admin/consumption.png",
-        "readme": "https://github.com/ioBroker/ioBroker.consumption/blob/master/README.md",
-        "loglevel": "info",
-        "mode": "daemon",
-        "type": "logic",
-        "compact": true,
-        "materialize": true,
-        "messagebox": true,
-        "dependencies": [
-            {
-                "sql": ">=1.13.0"
-            }
-        ]
-    },
-    "native": {
-        "statisticsInstance": "_",
-        "historyInstance": "sql.0",
-        "license": "",
-        "startFrom": "",
-        "colorStepStackBar": 30,
-        "colorStepDonut": 30,
+        "name": "Station 1",
         "resources": {
-            "energy": {
-                "unit": "kWh",
-                "price": 0.3,
-                "name": {
-                    "en": "Energy",
-                    "de": "Strom"
-                },
-                "color": "#FF1D27",
-                "icon": "⚡"
-            },
-            "water": {
-                "unit": "L",
-                "price": 1.8,
-                "name": {
-                    "en": "Water",
-                    "de": "Wasser"
-                },
-                "color": "#3C4FFF",
-                "icon": "💧"
-            },
-            "heat": {
-                "unit": "kWh",
-                "price": 0.17,
-                "name": {
-                    "en": "Heat",
-                    "de": "Wärme"
-                },
-                "color": "#b39910",
-                "icon": "🔥"
-            }
-        },
-        "stations": {
-            "Station01": {
-                "enabled": false,
-                "name": "Station 1",
-                "resources": {
-                    "water": {
-                        "price": 0.3,
-                        "sensors": [
-                            {
-                                "name": "Sensor1",
-                                "sensorId": "mbus.0.11bbcc.counter",
-                                "price": 0.25,
-                                "factor": 1
-                            },
-                            {
-                                "name": "Sensor2",
-                                "sensorId": "mbus.0.11bbcd.counter",
-                                "useSource": true,
-                                "factor": 1
-                            }
-                        ]
-                    }
-                }
-            }
+          "water": {
+            "price": 0.3,
+            "sensors": [
+              {
+                "name": "Sensor1",
+                "sensorId": "mbus.0.11bbcc.counter",
+                "price": 0.25,
+                "factor": 1
+              },
+              {
+                "name": "Sensor2",
+                "sensorId": "mbus.0.11bbcd.counter",
+                "useSource": true,
+                "factor": 1
+              }
+            ]
+          }
         }
-    },
-    "objects": [],
-    "instanceObjects": []
+      }
+    }
+  },
+  "objects": [],
+  "instanceObjects": []
 }

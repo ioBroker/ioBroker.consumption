@@ -80,18 +80,39 @@ Select:
 - Component: title, legend, tooltip, MarkPoint, MarkArea, VisualMap, Toolbox
 - Others: SVG Renderer, Utilities, Code Compression
 
+## ToDo
+- Delete station
+- Add new station
+- Rename station
+- Price for every sensor possible
+- Change prices: 
+  - remove all prices by resources, 
+  - add check box by every sensor: own price
+  - hide station=>resource price if every sensor has own price
+  - write directly into states and do not save the price in the object  
+  
+- Heatmap
+  - Show by year   
+- Charts
+
 - Export data as PDF
 - More than one station.
 - Style selects according to theme (unit, start, end)
 
 <!--
 	Placeholder for the next version (at the beginning of the line):
-	### __WORK IN PROGRESS__
+	### **WORK IN PROGRESS**
 -->
 
 ## Changelog
+### 0.4.21 (2022-11-15)
+* (bluefox) Charts were corrected
+
+### 0.4.20 (2022-09-30)
+* (bluefox) GUI was improved
+
 ### 0.4.18 (2021-07-09)
-* (bluefox) The warnings were corrected 
+* (bluefox) The warnings were corrected
 
 ### 0.4.17 (2021-01-16)
 * (bluefox) Corrected the conversion of values
@@ -110,7 +131,7 @@ Select:
 * (bluefox) Added stations editor
 
 ### 0.4.11 (2020-12-10)
-* (bluefox) Corrected the widget errors 
+* (bluefox) Corrected the widget errors
 
 ### 0.4.9 (2020-12-06)
 * (bluefox) Corrected error with the pie chart
@@ -137,7 +158,7 @@ Select:
 * (bluefox) Set index for every sensor
 
 ### 0.1.6 (2020-05-03)
-* (bluefox) Implement planning start from 
+* (bluefox) Implement planning start from
 
 ### 0.1.4 (2020-05-03)
 * (bluefox) Make widget compatible with older devices
@@ -153,7 +174,7 @@ Select:
 
 Commercial license.
 
-(c) Copyright 2020-2021 Bluefox <dogafox@gmail.com>, all rights reserved.
+(c) Copyright 2020-2022 Bluefox <dogafox@gmail.com>, all rights reserved.
 
 This license is a legal agreement between you and ioBroker GmbH (“ioBroker”) for the use of ioBroker.consumption adapter (the “Software”).
 By downloading of ioBroker.consumption adapter you agree to be bound by the terms and conditions of this license.
