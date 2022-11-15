@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "consumption",
-    "version": "0.4.21",
+    "version": "0.5.0",
     "news": {
-      "0.4.21": {
+      "0.5.0": {
         "en": "Charts were corrected",
         "de": "Diagramme wurden korrigiert",
         "ru": "Графики были исправлены",

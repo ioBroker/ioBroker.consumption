@@ -81,9 +81,6 @@ Select:
 - Others: SVG Renderer, Utilities, Code Compression
 
 ## ToDo
-- Delete station
-- Add new station
-- Rename station
 - Price for every sensor possible
 - Change prices: 
   - remove all prices by resources, 
@@ -105,7 +102,7 @@ Select:
 -->
 
 ## Changelog
-### 0.4.21 (2022-11-15)
+### 0.5.0 (2022-11-15)
 * (bluefox) Charts were corrected
 
 ### 0.4.20 (2022-09-30)
