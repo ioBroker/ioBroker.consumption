@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "consumption",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "news": {
+      "0.6.0": {
+        "en": "Activated ignoring of null values by SQL",
+        "de": "Aktivierte Ignorierung von Nullwerten durch SQL",
+        "ru": "Активированное игнорирование значений null по SQL",
+        "pt": "Ignoração ativa de valores nulos por SQL",
+        "nl": "Geactiveerd negeren van nootwaarden door SQL",
+        "fr": "Activated ignoring of null values by SQL",
+        "it": "Ignoramento attivato dei valori null di SQL",
+        "es": "Ignoración activada de valores nulos por SQL",
+        "pl": "Aktywowana ignorowanie wartości null przez SQL",
+        "uk": "Активоване ігнорування значень null за допомогою SQL",
+        "zh-cn": "否认SQL的无价值"
+      },
       "0.5.0": {
         "en": "Charts were corrected",
         "de": "Diagramme wurden korrigiert",
@@ -75,18 +88,6 @@
         "es": "Cálculo de precio corregido",
         "pl": "Poprawiona kalkulacja ceny",
         "zh-cn": "更正的价格计算"
-      },
-      "0.4.13": {
-        "en": "Updated the select ID dialog",
-        "de": "Das Dialogfeld \"ID auswählen\" wurde aktualisiert",
-        "ru": "Обновлен диалог выбора идентификатора.",
-        "pt": "Atualizado a caixa de diálogo de seleção de ID",
-        "nl": "Het dialoogvenster ID selecteren bijgewerkt",
-        "fr": "Mise à jour de la boîte de dialogue de sélection d'ID",
-        "it": "Aggiornata la finestra di dialogo Seleziona ID",
-        "es": "Se actualizó el cuadro de diálogo Seleccionar ID",
-        "pl": "Zaktualizowano okno dialogowe wyboru identyfikatora",
-        "zh-cn": "更新了选择ID对话框"
       }
     },
     "title": "Consumption statistics",

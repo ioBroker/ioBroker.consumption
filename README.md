@@ -102,6 +102,9 @@ Select:
 -->
 
 ## Changelog
+### 0.6.0 (2023-01-30)
+* (bluefox) Activated ignoring of null values by SQL
+
 ### 0.5.0 (2022-11-15)
 * (bluefox) Charts were corrected
 
@@ -171,10 +174,10 @@ Select:
 
 Commercial license.
 
-(c) Copyright 2020-2022 Bluefox <dogafox@gmail.com>, all rights reserved.
+(c) Copyright 2020-2023 Bluefox <dogafox@gmail.com>, all rights reserved.
 
-This license is a legal agreement between you and ioBroker GmbH (“ioBroker”) for the use of ioBroker.consumption adapter (the “Software”).
-By downloading of ioBroker.consumption adapter you agree to be bound by the terms and conditions of this license.
+This license is a legal agreement between you and ioBroker GmbH (“ioBroker”) for the use of `ioBroker.consumption` adapter (the “Software”).
+By downloading of `ioBroker.consumption` adapter you agree to be bound by the terms and conditions of this license.
 ioBroker GmbH reserves the right to alter this agreement at any time, for any reason, without notice.
 
 ## Permitted Use
