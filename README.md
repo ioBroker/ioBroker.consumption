@@ -71,7 +71,6 @@ Examples:
 - °F => °C: `(val - 32) / 1.8`
 - °C => °F: `val * 1.8 + 32`
 
-
 ## Update echarts (only for the developers)
 Go to https://echarts.apache.org/en/builder.html
 Select:
@@ -102,6 +101,12 @@ Select:
 -->
 
 ## Changelog
+### 0.7.0 (2023-02-08)
+* (bluefox) Added offset and factor to sensors
+
+### 0.6.7 (2023-02-06)
+* (bluefox) Added new features to table
+
 ### 0.6.0 (2023-01-30)
 * (bluefox) Activated ignoring of null values by SQL
 
@@ -183,4 +188,3 @@ ioBroker GmbH reserves the right to alter this agreement at any time, for any re
 ## Permitted Use
 One license grants the right to perform one installation of the Software.
 Each additional installation of the Software requires an additional purchased license.
-Basically, if you need one license for ExpressionEngine, you also need one license for the Software.

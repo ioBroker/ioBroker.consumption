@@ -1,8 +1,47 @@
 {
   "common": {
     "name": "consumption",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "news": {
+      "0.7.0": {
+        "en": "Added offset and factor to sensors",
+        "de": "Offset und Faktor für Sensoren",
+        "ru": "Добавлен офсет и фактор для датчиков",
+        "pt": "Adicionado deslocamento e fator para sensores",
+        "nl": "Veroordeling en factor tot sensoren",
+        "fr": "Ajout du décalage et du facteur aux capteurs",
+        "it": "Aggiunto offset e fattore ai sensori",
+        "es": "Offset y factor a sensores",
+        "pl": "Wprowadzono odkład i czynnik do czujników",
+        "uk": "Додано зсув і фактор до датчиків",
+        "zh-cn": "增加传感器的抵消和因素"
+      },
+      "0.6.7": {
+        "en": "Added new features to table",
+        "de": "Neue Features zum Tisch hinzugefügt",
+        "ru": "Добавлены новые функции в таблицу",
+        "pt": "Adicionado novos recursos para tabela",
+        "nl": "Vertaling:",
+        "fr": "Ajout de nouvelles fonctionnalités à table",
+        "it": "Aggiunta nuove funzionalità per il tavolo",
+        "es": "Nuevas características adicionales a la mesa",
+        "pl": "Dodano nowe cechy do stołu",
+        "uk": "Додати нові можливості до таблиці",
+        "zh-cn": "增加表格的新特点"
+      },
+      "0.6.5": {
+        "en": "Added new features to table",
+        "de": "Neue Features zum Tisch hinzugefügt",
+        "ru": "Добавлены новые функции в таблицу",
+        "pt": "Adicionado novos recursos para tabela",
+        "nl": "Vertaling:",
+        "fr": "Ajout de nouvelles fonctionnalités à table",
+        "it": "Aggiunta nuove funzionalità per il tavolo",
+        "es": "Nuevas características adicionales a la mesa",
+        "pl": "Dodano nowe cechy do stołu",
+        "uk": "Додати нові можливості до таблиці",
+        "zh-cn": "增加表格的新特点"
+      },
       "0.6.0": {
         "en": "Activated ignoring of null values by SQL",
         "de": "Aktivierte Ignorierung von Nullwerten durch SQL",
@@ -52,42 +91,6 @@
         "es": "Las advertencias fueron corregidas",
         "pl": "Ostrzeżenia zostały poprawione",
         "zh-cn": "警告已更正"
-      },
-      "0.4.17": {
-        "en": "Corrected the conversion of values",
-        "de": "Die Umrechnung von Werten wurde korrigiert",
-        "ru": "Исправлена конвертация значений",
-        "pt": "Corrigida a conversão de valores",
-        "nl": "De conversie van waarden gecorrigeerd",
-        "fr": "Correction de la conversion des valeurs",
-        "it": "Corretta la conversione dei valori",
-        "es": "Corregida la conversión de valores.",
-        "pl": "Poprawiono konwersję wartości",
-        "zh-cn": "更正了值的转换"
-      },
-      "0.4.15": {
-        "en": "Corrected forecast calculation based on current second of the month\nAdded convert function",
-        "de": "Prognoseberechnung basierend auf der aktuellen Sekunde des Monats korrigiert\nKonvertierungsfunktion hinzugefügt",
-        "ru": "Скорректированный расчет прогноза по текущей секунде месяца\nДобавлена функция преобразования",
-        "pt": "Cálculo de previsão corrigido com base no segundo atual do mês\nAdicionada função de conversão",
-        "nl": "Gecorrigeerde prognoseberekening op basis van de huidige seconde van de maand\nConverteerfunctie toegevoegd",
-        "fr": "Calcul des prévisions corrigé en fonction de la seconde du mois en cours\nAjout de la fonction de conversion",
-        "it": "Calcolo della previsione corretto in base al secondo del mese corrente\nAggiunta la funzione di conversione",
-        "es": "Cálculo de pronóstico corregido basado en el segundo actual del mes\nFunción de conversión agregada",
-        "pl": "Skorygowane obliczenia prognozy na podstawie bieżącej sekundy miesiąca\nDodano funkcję konwersji",
-        "zh-cn": "根据当前月份的第二个月更正了预测计算\n增加了转换功能"
-      },
-      "0.4.14": {
-        "en": "Corrected price calculation",
-        "de": "Preisberechnung korrigiert",
-        "ru": "Скорректированный расчет цены",
-        "pt": "Cálculo de preço corrigido",
-        "nl": "Prijsberekening gecorrigeerd",
-        "fr": "Calcul du prix corrigé",
-        "it": "Calcolo del prezzo corretto",
-        "es": "Cálculo de precio corregido",
-        "pl": "Poprawiona kalkulacja ceny",
-        "zh-cn": "更正的价格计算"
       }
     },
     "title": "Consumption statistics",

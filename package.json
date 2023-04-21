@@ -1,6 +1,6 @@
 {
   "name": "iobroker.consumption",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Calculates consumption for defined sensors and resources",
   "author": {
     "name": "ioBroker",
@@ -24,7 +24,7 @@
   "files": [
     "admin/",
     "img/",
-    "lib/",
+    "lib/cloudCert.crt",
     "widgets/",
     "io-package.json",
     "main.js",
