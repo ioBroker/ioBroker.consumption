@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "consumption",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "news": {
+      "0.8.0": {
+        "en": "Do not take the price of sensor if it is empty or 0\nRefactoring (async/await)",
+        "de": "Nehmen Sie nicht den Preis des Sensors, wenn es leer ist oder 0\nRefactoring (async/await)",
+        "ru": "Не принимайте цену датчика, если он пуст или 0\nРефакторинг (async/await)",
+        "pt": "Não tome o preço do sensor se estiver vazio ou 0\nRefactoring (async/await)",
+        "nl": "Neem niet de prijs van de sensor als het leeg of 0 is\nVertaling:",
+        "fr": "Ne prenez pas le prix du capteur s'il est vide ou 0\nRefactoring (async/await)",
+        "it": "Non prendere il prezzo del sensore se è vuoto o 0\nRefactoring (async/await)",
+        "es": "No tome el precio del sensor si está vacío o 0\nRefactoring (async/await)",
+        "pl": "Nie uwzględnia ceny czujnika, jeśli jest pusty lub 0\nRefactoring (async/await) (ang.)",
+        "uk": "Не береться ціна датчика, якщо він порожній або 0\nРефакторинг (async/await)",
+        "zh-cn": "如果是空洞或0.0%,则不使用传感器的价格\n复制(ync/await)"
+      },
       "0.7.0": {
         "en": "Added offset and factor to sensors",
         "de": "Offset und Faktor für Sensoren",
@@ -79,18 +92,6 @@
         "es": "GUI was improved",
         "pl": "GUI został ulepszony",
         "zh-cn": "古伊人得到改善"
-      },
-      "0.4.18": {
-        "en": "The warnings were corrected",
-        "de": "Die Warnungen wurden korrigiert",
-        "ru": "Предупреждения исправлены",
-        "pt": "Os avisos foram corrigidos",
-        "nl": "De waarschuwingen zijn gecorrigeerd",
-        "fr": "Les avertissements ont été corrigés",
-        "it": "Gli avvertimenti sono stati corretti",
-        "es": "Las advertencias fueron corregidas",
-        "pl": "Ostrzeżenia zostały poprawione",
-        "zh-cn": "警告已更正"
       }
     },
     "title": "Consumption statistics",
