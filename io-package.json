@@ -128,7 +128,10 @@
       "resources",
       "energy"
     ],
-    "license": "LicenseRef-LICENSE",
+    "licenseInformation": {
+      "type": "free",
+      "license": "LicenseRef-LICENSE"
+    },
     "platform": "Javascript/Node.js",
     "main": "main.js",
     "icon": "consumption.png",
