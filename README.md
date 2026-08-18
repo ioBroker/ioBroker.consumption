@@ -101,6 +101,9 @@ Select:
 -->
 
 ## Changelog
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
+
 ### 1.0.0 (2023-09-13)
 * (bluefox) Fixed pie chart
 
