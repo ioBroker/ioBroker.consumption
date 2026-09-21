@@ -182,6 +182,8 @@ Select:
 ### 0.0.2
 * (bluefox) initial release
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 
 Commercial license.
