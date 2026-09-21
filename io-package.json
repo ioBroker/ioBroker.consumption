@@ -133,7 +133,6 @@
       "license": "LicenseRef-LICENSE"
     },
     "platform": "Javascript/Node.js",
-    "main": "main.js",
     "icon": "consumption.png",
     "enabled": false,
     "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.consumption/master/admin/consumption.png",
