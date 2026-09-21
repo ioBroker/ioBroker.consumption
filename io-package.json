@@ -136,6 +136,7 @@
     "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.consumption/master/admin/consumption.png",
     "readme": "https://github.com/ioBroker/ioBroker.consumption/blob/master/README.md",
     "loglevel": "info",
+    "tier": 2,
     "mode": "daemon",
     "type": "logic",
     "compact": true,
