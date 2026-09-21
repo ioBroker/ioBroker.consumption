@@ -146,6 +146,9 @@
     "dependencies": [
       {
         "sql": ">=1.13.0"
+      },
+      {
+        "js-controller": ">=6.0.11"
       }
     ]
   },
