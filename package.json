@@ -9,6 +9,7 @@
   "homepage": "https://github.com/ioBroker/ioBroker.consumption",
   "license": "LicenseRef-LICENSE",
   "keywords": [
+    "ioBroker",
     "statistics",
     "consumption",
     "resources",

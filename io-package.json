@@ -94,7 +94,6 @@
         "zh-cn": "古伊人得到改善"
       }
     },
-    "title": "Consumption statistics",
     "titleLang": {
       "en": "Consumption statistics",
       "de": "Verbrauchsstatistik",
@@ -128,24 +127,32 @@
       "resources",
       "energy"
     ],
-    "license": "LicenseRef-LICENSE",
+    "licenseInformation": {
+      "type": "free",
+      "license": "LicenseRef-LICENSE"
+    },
     "platform": "Javascript/Node.js",
-    "main": "main.js",
     "icon": "consumption.png",
     "enabled": false,
     "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.consumption/master/admin/consumption.png",
     "readme": "https://github.com/ioBroker/ioBroker.consumption/blob/master/README.md",
     "loglevel": "info",
+    "tier": 2,
     "mode": "daemon",
     "type": "logic",
     "compact": true,
-    "materialize": true,
     "messagebox": true,
     "dependencies": [
       {
         "sql": ">=1.13.0"
+      },
+      {
+        "js-controller": ">=6.0.11"
       }
-    ]
+    ],
+    "adminUI": {
+      "config": "materialize"
+    }
   },
   "native": {
     "statisticsInstance": "_",

@@ -103,6 +103,7 @@ Select:
 ## Changelog
 ### **WORK IN PROGRESS**
 - (copilot) Adapter requires node.js >= 22 now
+- (ioBroker-Bot) Adapter requires js-controller >= 6.0.11 now.
 
 ### 1.0.0 (2023-09-13)
 * (bluefox) Fixed pie chart
@@ -184,6 +185,8 @@ Select:
 
 ### 0.0.2
 * (bluefox) initial release
+
+[Older changelogs can be found there](CHANGELOG_OLD.md)
 
 ## License
 
