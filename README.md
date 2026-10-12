@@ -101,8 +101,8 @@ Select:
 -->
 
 ## Changelog
-
 ### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
 - (ioBroker-Bot) Adapter requires js-controller >= 6.0.11 now.
 
 ### 1.0.0 (2023-09-13)
