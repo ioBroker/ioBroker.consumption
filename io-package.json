@@ -1,8 +1,47 @@
 {
   "common": {
     "name": "consumption",
-    "version": "0.8.0",
+    "version": "1.0.3",
     "news": {
+      "1.0.3": {
+        "en": "Updated packages and the metadata, the adapter requires node.js >= 22 and js-controller >= 6.0.11 now",
+        "de": "Pakete und Metadaten aktualisiert, der Adapter benötigt jetzt node.js >= 22 und js-controller >= 6.0.11",
+        "ru": "Обновлены пакеты и метаданные, адаптер теперь требует node.js >= 22 и js-controller >= 6.0.11",
+        "pt": "Pacotes e metadados atualizados, o adaptador exige node.js >= 22 e js-controller >= 6.0.11",
+        "nl": "Bijgewerkte pakketten en metagegevens, de adapter vereist nu node.js >= 22 en js-controller >= 6.0.11",
+        "fr": "Packages et métadonnées mis à jour, l'adaptateur nécessite node.js >= 22 et js-controller >= 6.0.11 maintenant",
+        "it": "Pacchetti e metadati aggiornati, l'adattatore richiede node.js >= 22 e js-controller >= 6.0.11",
+        "es": "Paquetes y metadatos actualizados, el adaptador necesita node.js >= 22 y js-controller >= 6.0.11 ahora",
+        "pl": "Zaktualizowano pakiety i metadane, adapter wymaga teraz node.js >= 22 i js-controller >= 6.0.11",
+        "uk": "Оновлені пакунки та метадані, адаптер вимагає node.js >= 22 і js-контролер >= 6.0.11 зараз",
+        "zh-cn": "更新了软件包和元数据，适配器现在需要 node.js >= 22 和 js-controller >= 6.0.11"
+      },
+      "1.0.2": {
+        "en": "Fixed plan display",
+        "de": "Feste Plananzeige",
+        "ru": "Фиксированный дисплей плана",
+        "pt": "Exibição de plano fixo",
+        "nl": "Vertoning van vaste plannen",
+        "fr": "Affichage du plan fixe",
+        "it": "Visualizzazione piano fisso",
+        "es": "Pantalla de plan fijo",
+        "pl": "Poprawiony wyświetlacz planu",
+        "uk": "Фіксований дисплей плану",
+        "zh-cn": "固定计划显示"
+      },
+      "1.0.1": {
+        "en": "Fixed pie chart",
+        "de": "Feste Pie-Chart",
+        "ru": "Фиксированный pie график",
+        "pt": "Gráfico de torta fixa",
+        "nl": "Gereserveerd",
+        "fr": "Graphique de tarte fixe",
+        "it": "Grafico a torta fisso",
+        "es": "Tabla de tarta fija",
+        "pl": "Fixed pie chart",
+        "uk": "Фіксований пиріг діаграми",
+        "zh-cn": "Fix Pie图"
+      },
       "0.8.0": {
         "en": "Do not take the price of sensor if it is empty or 0\nRefactoring (async/await)",
         "de": "Nehmen Sie nicht den Preis des Sensors, wenn es leer ist oder 0\nRefactoring (async/await)",
@@ -54,44 +93,6 @@
         "pl": "Dodano nowe cechy do stołu",
         "uk": "Додати нові можливості до таблиці",
         "zh-cn": "增加表格的新特点"
-      },
-      "0.6.0": {
-        "en": "Activated ignoring of null values by SQL",
-        "de": "Aktivierte Ignorierung von Nullwerten durch SQL",
-        "ru": "Активированное игнорирование значений null по SQL",
-        "pt": "Ignoração ativa de valores nulos por SQL",
-        "nl": "Geactiveerd negeren van nootwaarden door SQL",
-        "fr": "Activated ignoring of null values by SQL",
-        "it": "Ignoramento attivato dei valori null di SQL",
-        "es": "Ignoración activada de valores nulos por SQL",
-        "pl": "Aktywowana ignorowanie wartości null przez SQL",
-        "uk": "Активоване ігнорування значень null за допомогою SQL",
-        "zh-cn": "否认SQL的无价值"
-      },
-      "0.5.0": {
-        "en": "Charts were corrected",
-        "de": "Diagramme wurden korrigiert",
-        "ru": "Графики были исправлены",
-        "pt": "Gráficos foram corrigidos",
-        "nl": "Charts werden gecorrigeerd",
-        "fr": "Les graphiques ont été corrigés",
-        "it": "I grafici sono stati corretti",
-        "es": "Los Gráficos fueron corregidos",
-        "pl": "Charts został skorygowany",
-        "uk": "Графіки були виправлені",
-        "zh-cn": "修改了艺术"
-      },
-      "0.4.20": {
-        "en": "GUI was improved",
-        "de": "GUI wurde verbessert",
-        "ru": "GUI улучшено",
-        "pt": "GUI foi melhorada",
-        "nl": "GUI werd verbeterd",
-        "fr": "GUI a été amélioré",
-        "it": "GUI è stata migliorata",
-        "es": "GUI was improved",
-        "pl": "GUI został ulepszony",
-        "zh-cn": "古伊人得到改善"
       }
     },
     "titleLang": {
@@ -104,7 +105,8 @@
       "it": "Statistiche sui consumi",
       "es": "Estadísticas de consumo",
       "pl": "Statystyka zużycia",
-      "zh-cn": "消费统计"
+      "zh-cn": "消费统计",
+      "uk": "Статистика споживання"
     },
     "desc": {
       "en": "Calculates consumption for defined sensors and resources",
@@ -116,7 +118,8 @@
       "it": "Calcola il consumo per sensori e risorse definiti",
       "es": "Calcula el consumo de sensores y recursos definidos.",
       "pl": "Oblicza zużycie dla zdefiniowanych czujników i zasobów",
-      "zh-cn": "计算定义的传感器和资源的消耗"
+      "zh-cn": "计算定义的传感器和资源的消耗",
+      "uk": "Розраховує споживання для визначених датчиків і ресурсів"
     },
     "authors": [
       "ioBroker <dogafox@gmail.com>"
@@ -128,8 +131,9 @@
       "energy"
     ],
     "licenseInformation": {
-      "type": "free",
-      "license": "LicenseRef-LICENSE"
+      "type": "commercial",
+      "license": "LicenseRef-LICENSE",
+      "link": "https://github.com/ioBroker/ioBroker.consumption/blob/master/LICENSE"
     },
     "platform": "Javascript/Node.js",
     "icon": "consumption.png",
@@ -137,22 +141,30 @@
     "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.consumption/master/admin/consumption.png",
     "readme": "https://github.com/ioBroker/ioBroker.consumption/blob/master/README.md",
     "loglevel": "info",
-    "tier": 2,
     "mode": "daemon",
     "type": "logic",
+    "connectionType": "local",
+    "dataSource": "poll",
     "compact": true,
     "messagebox": true,
-    "dependencies": [
-      {
-        "sql": ">=1.13.0"
-      },
-      {
-        "js-controller": ">=6.0.11"
-      }
-    ],
+    "nogit": true,
     "adminUI": {
       "config": "materialize"
-    }
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      },
+      {
+        "sql": ">=1.13.0"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=7.6.17"
+      }
+    ],
+    "tier": 3
   },
   "native": {
     "statisticsInstance": "_",

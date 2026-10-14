@@ -10,19 +10,3 @@ updates:
       timezone: 'Europe/Berlin'
       cronjob: '44 2 12 * *'
     open-pull-requests-limit: 15
-
-  - package-ecosystem: 'npm'
-    directories:
-      - '**/*'
-    schedule:
-      interval: 'cron'
-      timezone: 'Europe/Berlin'
-      cronjob: '44 2 12 * *'
-    open-pull-requests-limit: 20
-    versioning-strategy: 'increase'
-    cooldown:
-      default-days: 7
-    ignore:
-      - dependency-name: '@types/node'
-        update-types:
-          - 'version-update:semver-major'
